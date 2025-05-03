@@ -8,9 +8,9 @@ BIN_DIR := bin/$(BUILD_MODE)
 
 # Валидация BUILD_MODE
 ifeq ($(BUILD_MODE),debug)
-	CFLAGS := -g -MMD
+	CFLAGS := -g -MMD -fstack-protector -Wall
 else ifeq ($(BUILD_MODE),release)
-	CFLAGS := -O2 -MMD
+	CFLAGS := -O2 -MMD -fstack-protector -Wall
 else
 	$(error ❌ Недопустимый BUILD_MODE='$(BUILD_MODE)'. Используй 'debug' или 'release')
 endif

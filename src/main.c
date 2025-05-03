@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <string.h>
-#include "my_lib.h"
-#include "sum.h"
+#include <windows.h>
 
 int main() {
-    printf("Hello, World!\n");
-    printf("Sum of 1 and 2 is %d\n", sum(1, 2));
-    printf("Family: %s\n", FAMILY);
-    printf("Kids: %d\n", KIDS);
-    printf("Mortage rate: %f\n", MORTAGE_RATE);
+    SetConsoleOutputCP(65001); 
+    SetConsoleCP(65001);      
 
-    getchar();
+    char name[100];
+    printf("Здарова епта, имя назови свое?\n");
+    fgets(name, sizeof(name), stdin);
+    name[strcspn(name, "\n")] = 0;
+
+    printf("Здарова епта, %s!\n", name);
+
     return 0;
 }
-
