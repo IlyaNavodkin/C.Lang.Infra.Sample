@@ -1,0 +1,46 @@
+# Бинарные файлы
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# Файлы компиляции и сборки
+*.d
+*.dep
+*.cmd
+*.mod
+*.map
+*.sym
+
+# Каталоги сборки
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+
+# Файлы IDE и редакторов
+*.log
+*.swp
+*.swo
+*.user
+*.sdf
+*.vcxproj*
+*.ncb
+*.opensdf
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Отладочные файлы
+core
+*.stackdump
+
+# Резервные файлы
+*~
+*.bak
+*.tmp
