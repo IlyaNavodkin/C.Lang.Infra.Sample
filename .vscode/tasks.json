@@ -13,7 +13,7 @@
 				"cwd": "${workspaceFolder}"
 			},
 			"problemMatcher": [
-				"$msCompile"
+				"$gcc"
 			],
 			"group": {
 				"kind": "build",
@@ -33,6 +33,7 @@
 				"${workspaceFolder}/bin/debug/app.exe"
 			],
 			"group": "none",
+			"dependsOn": ["Make build"],
 			"problemMatcher": []
 		}
 	]
