@@ -1,0 +1,20 @@
+{
+  "C_Cpp.codeAnalysis.clangTidy.enabled": false,
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.loggingLevel": "Debug",  
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "VsCodeTaskButtons.showCounter": true,
+  "VsCodeTaskButtons.tasks": [
+      {
+          "label": "$(notebook-move-down) Build",
+          "task": "Make build",
+          "tooltip": "Build the app"
+      },
+      {
+          "label": "$(search-refresh) Run app",
+          "task": "Run app",
+          "tooltip": "Start build and run app"
+      },
+  ]
+}

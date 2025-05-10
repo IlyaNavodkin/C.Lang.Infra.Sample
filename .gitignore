@@ -36,11 +36,6 @@
 *.idea/
 # *.vscode/
 
-# .vscode исключения, кроме важных файлов конфигурации
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-
 # Отладочные файлы
 core
 *.stackdump
